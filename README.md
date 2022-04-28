@@ -39,5 +39,5 @@ This plot shows a relationship between price and sq ft of living space that is a
 Number of bathrooms also shows a general relationship with the price.
 ![bathrooms](https://user-images.githubusercontent.com/82225286/165665239-9cfe2e64-f8c8-409e-873e-cb9470bd4938.png)
 
-For my prediction plan, I will aggregate things a bit more - perhaps create 3 building grades (falls short = 1, average = 2, and high quality = 3) do one hot encoding for months and maybe group them into seasons 1-4. Then I will split the data into a test and train set and try to find a regression model that fits the data to accurately predict house price based on season it sold, grade, view, sqft living space, etc.
+For my prediction plan, I will aggregate things a bit more - perhaps create 3 building grades (falls short = 1, average = 2, and high quality = 3). Then I will split the data into a test and train set and try to find a regression model that fits the data to accurately predict house price based on season it sold, grade, view, sqft living space, etc.
 
