@@ -30,5 +30,14 @@ The target column that I would like to predict is the price of a house. I think 
 ![price heatmap](https://user-images.githubusercontent.com/82225286/165663070-20fbef7f-e3a2-4891-b6b4-71d05db93ad2.png)
 
 
-After splitting the date out into months, it seems that seasons/months where the weather is subjectively "nice" (spring and fall) such as March/April, and September/October have slightly higher average price per sq foot, so this may be another connection to look into.
+After splitting the date out into months and aggregating the price to an average price per sq foot, it seems that seasons/months where the weather is subjectively "nice" (spring and fall) such as March/April, and September/October have slightly higher average price per sq foot, so this may be another connection to look into.
 ![month](https://user-images.githubusercontent.com/82225286/165663010-54d14d49-e468-4395-af88-70e556e82814.png)
+
+This plot shows a relationship between price and sq ft of living space that is also somewhat related to the building grade.
+![grade](https://user-images.githubusercontent.com/82225286/165664848-9d7f2ecc-bef0-4588-ad73-dbf6ecc61987.png)
+
+Number of bathrooms also shows a general relationship with the price.
+![bathrooms](https://user-images.githubusercontent.com/82225286/165665239-9cfe2e64-f8c8-409e-873e-cb9470bd4938.png)
+
+For my prediction plan, I will aggregate things a bit more - perhaps create 3 building grades (falls short = 1, average = 2, and high quality = 3) do one hot encoding for months and maybe group them into seasons 1-4. Then I will split the data into a test and train set and try to find a regression model that fits the data to accurately predict house price based on season it sold, grade, view, sqft living space, etc.
+
