@@ -29,6 +29,8 @@ sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors
 The target column that I would like to predict is the price of a house. I think the important columns to explore through further analysis include the sqft of living space, number of bathrooms, building grade, and the sqft of surrounding homes which will indicate the size of homes in the neighborhood. Based on this heatmap, it seems these are all likely strong indicators.
 ![price heatmap](https://user-images.githubusercontent.com/82225286/165663070-20fbef7f-e3a2-4891-b6b4-71d05db93ad2.png)
 
+This plot shows the distribution of target values (price) in my dataset:
+![histogram price](https://user-images.githubusercontent.com/82225286/165817872-555c883f-5c58-4521-ae9a-dd07c0d9e0c4.png)
 
 After splitting the date out into months and aggregating the price to an average price per sq foot, it seems that seasons/months where the weather is subjectively "nice" (spring and fall) such as March/April, and September/October have slightly higher average price per sq foot, so this may be another connection to look into.
 ![month](https://user-images.githubusercontent.com/82225286/165663010-54d14d49-e468-4395-af88-70e556e82814.png)
