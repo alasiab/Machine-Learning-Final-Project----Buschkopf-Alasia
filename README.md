@@ -30,5 +30,5 @@ The target column that I would like to predict is the price of a house. I think 
 ![price heatmap](https://user-images.githubusercontent.com/82225286/165663070-20fbef7f-e3a2-4891-b6b4-71d05db93ad2.png)
 
 
-I initially thought there might be something to consider in the season of the year affecting the selling price, but this chart showing average price per square foot vs month seems to indicate it is not a big factor, so I will put that thought on hold.
+After splitting the date out into months, it seems that seasons/months where the weather is subjectively "nice" (spring and fall) such as March/April, and September/October have slightly higher average price per sq foot, so this may be another connection to look into.
 ![month](https://user-images.githubusercontent.com/82225286/165663010-54d14d49-e468-4395-af88-70e556e82814.png)
