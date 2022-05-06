@@ -72,6 +72,7 @@ When adjusting the test size, the scores do change as well. Overall, it is sligh
 
 ![accuracy](https://user-images.githubusercontent.com/82225286/167063729-2162d213-7dcc-456c-997b-9e88e78c0f09.png)
 
-**Conclusion:** Both of these regression models worked quite well for this dataset. The data was rather clean to begin withand required very little imputing or dropping of null values. Adding aggregate columns definitely increased the accuracy of the model. If I had to choose, I would choose the SGD regression simply because it did score slightly higher.
+## Conclusion</br> 
+Both of these regression models worked quite well for this dataset. The data was rather clean to begin withand required very little imputing or dropping of null values. Adding aggregate columns definitely increased the accuracy of the model. If I had to choose, I would choose the SGD regression simply because it did score slightly higher.
 
 
