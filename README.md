@@ -29,7 +29,7 @@ sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors</br
 
 The target column that I would like to predict is the price of a house. </br>
 
-**Distribution of target values (price) in this dataset**
+**Distribution of target values (price) in this dataset**</br>
 ![histogram price](https://user-images.githubusercontent.com/82225286/165817872-555c883f-5c58-4521-ae9a-dd07c0d9e0c4.png)
 
 ### Initial Data Analysis</br>
@@ -54,5 +54,19 @@ I've also created some aggregate columns such as average price per square foot o
 
 
 ## Training </br>
+For this dataset, I am aiming for regression and implemented the sklearn linear regression model and the SGD regression model.
+
+## Post Model Analysis </br>
+After adjusting various aggregate columns as mentioned earlier, I was able to get a score of 0.825 for the linear regression model and 0.833 for the SGD regression model. </br> 
+
+**Residuals for Linear Regression Model**</br>
+![linear residuals](https://user-images.githubusercontent.com/82225286/167061777-03eaa6f0-2170-4acd-879f-d9ad8e121c11.png)</br>
+**Residuals for SGD Regression Model**</br>
+![sgd residuals](https://user-images.githubusercontent.com/82225286/167061827-77ed031c-4273-4ac9-9520-089020cfca94.png)</br>
+ The residual plots seem to show that the higher the price gets, the less accurate the model is in predicting the price. The residuals are both very similar for the SGD and the linear regression.
+**Plot of Actual Price vs Predicted Price using SGD Regression Model** </br>
+![sgd actual y vs predicted y](https://user-images.githubusercontent.com/82225286/167061907-2eff712b-1a9b-4172-aa79-d6e9591c07a7.png)
+
+
 
 
